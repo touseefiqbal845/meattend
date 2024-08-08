@@ -1,0 +1,129 @@
+.custom-button{
+    display:inline-block;
+    padding:5px 10px;
+    cursor:pointer;
+}
+.css-14pqxyi-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #FFC000 !important;
+    text-transform: capitalize !important;
+}
+
+.css-14pqxyi-MuiButtonBase-root-MuiTab-root {
+
+    text-transform: capitalize !important;
+
+}
+
+.css-19kzrtu {
+    padding:0 !important;
+}
+
+.css-11yukd5-MuiTabs-indicator {
+    
+    background-color: #FFC000 !important;
+}
+/* .css-31ops9-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: mulish, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    color: rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 14px;
+    padding-right: 14px;
+} */
+.photo-heading{
+    margin-top:16px;
+    margin-bottom:-15px;
+}
+.description {
+    margin-top: 50px;
+    margin-bottom: 2px;
+    font-size: 13px;
+    margin-left:7px;
+  
+}
+.event-type-name {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+.recurrence-type-label{
+    margin-top:4px;
+
+    font-size: 13px;
+    color: #c2c2c5;
+    text-color: white; 
+}
+.Typeography-title-input {
+  margin-bottom: 8px; 
+  color:  #262A45;
+  font-size: 14px;
+  font-weight: 400;
+  /* margin-left:3px; */
+}
+.customDatePicker{
+  height: 0.4375em;
+
+}
+.react-toast-notifications__toast {
+    z-index: 1000; 
+  }
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-top: 10px;
+  }
+  .grid-item {
+    flex: 1 0 5%; /* Each item takes up 25% of the container width */
+    padding: 0 10px;
+  }
+ 
+  
+  .max-text {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .pro-text {
+    color: orange;
+  }
+  div p {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+
+.customSwitch {
+  margin-left: 0px !important;
+}
+.customSwitchSecound{
+  margin-left: 30px !important;
+
+}
+.tags-description{
+  margin-left: 5px;
+}
+
+
+
+  @media screen and (max-width: 768px) {
+    .grid-item {
+      flex-basis: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .grid-item {
+      flex-basis: 100%;
+    }
+  }

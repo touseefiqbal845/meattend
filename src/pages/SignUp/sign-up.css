@@ -1,0 +1,112 @@
+.custom-stepper {
+  position: relative;
+}
+
+.custom-stepper .MuiStepConnector-vertical {
+  margin-left: 12px;
+}
+
+.custom-stepper .MuiStepConnector-line {
+  border: 1px dashed #a0a3b5;
+}
+
+.text-danger{
+  color: #FD1F1F;
+}
+
+.mt-2{
+  margin-top:20px;
+}
+
+.inline-block{
+  display:inline-block;
+}
+
+.custom-stepper
+  .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed
+  path {
+  border: 2px solid#de9300; /* Adjust the color of the dashed circle border */
+  background-color: #de9300;
+  color: #de9300;
+  border-radius: 50%;
+  /* Adjust the background color of the circle */
+}
+.custom-stepper .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  border: 2px solid#de9300; /* Adjust the color of the dashed circle border */
+  color: #de9300;
+  border-radius: 50%;
+  /* Adjust the background color of the circle */
+}
+.custom-stepper
+  .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed
+  text {
+  fill: #fff;
+}
+.custom-stepper .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  border: 2px solid#de9300; /* Adjust the color of the dashed circle border */
+  background-color: #fff;
+  color: white;
+  border-radius: 50%;
+  /* Adjust the background color of the circle */
+}
+.custom-stepper .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active text {
+  fill: #de9300;
+}
+.custom-stepper .css-zpcwqm-MuiStepConnector-root {
+  top: 17px;
+  left: calc(-50% + 18px) !important;
+  right: calc(50% + 18px) !important;
+}
+.custom-stepper .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  border: 2px dashed #a0a3b5; /* Adjust the color of the dashed circle border */
+  background-color: #fff;
+  color: white;
+  border-radius: 50%;
+  /* Adjust the background color of the circle */
+}
+.custom-stepper .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root text {
+  fill: #a0a3b5;
+}
+.custom-stepper .MuiStepLabel-label {
+  font-size: 16px;
+}
+.custom-stepper .MuiSvgIcon-root {
+  height: 34px;
+  width: 34px;
+}
+.custom-stepper
+  .MuiStepConnector-horizontal.Mui-completed
+  .MuiStepConnector-line {
+  border: 1px dashed #de9300;
+}
+.custom-stepper .css-hv6qxz-MuiStepLabel-label.Mui-completed {
+  color: #de9300;
+}
+.custom-stepper .css-hv6qxz-MuiStepLabel-label.Mui-active {
+  color: #de9300;
+}
+.terms-link {
+  color: #DE9300;
+  text-decoration: none; 
+}
+
+.terms-link:hover {
+  text-decoration: underline; 
+}
+@media only screen and (max-width: 476px) {
+  .custom-stepper .MuiSvgIcon-root {
+    width: 19.06px;
+    height: 18.77px;
+  }
+  .custom-stepper .css-zpcwqm-MuiStepConnector-root {
+    top: 9px;
+    left: calc(-50% + 11px) !important;
+    right: calc(50% + 11px) !important;
+  }
+  .custom-stepper .MuiStepLabel-label {
+    font-size: 8.96px;
+  }
+  .custom-stepper .css-hv6qxz-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+    margin-top: 6px;
+  }
+}

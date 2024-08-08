@@ -1,0 +1,42 @@
+
+.custom-header {
+    font-size: "16px";
+    line-height: "26px";
+    font-weight: 600;
+    color: "#000315";
+    font-family: "Mulish";
+}
+
+.charts{
+    width: '80%';
+    margin: 'auto';
+    margin-top: '20px';
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    flex: 1;
+    text-align: left;
+    color: #262A45;
+    font-family: mulish;
+    font-weight: 400;
+
+}
+
+.right-section {
+    flex: 1;
+    text-align: right;
+    color: #262A45;
+    font-family: mulish;
+    font-weight: 400;
+
+}
+
+.divider {
+    border-bottom: 1px solid #D8DAE7;
+    margin-top: 20px; /* Adjust spacing as needed */
+}

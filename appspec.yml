@@ -1,0 +1,22 @@
+#for AWS CodeDeploy
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/WEB-V2-CodeDeploy
+    overwrite: true
+    file_exists_behavior: OVERWRITE
+permissions:
+  - object: /var/www/WEB-V2-CodeDeploy
+    pattern: "**"
+    owner: ubuntu
+    group: ubuntu
+hooks:
+  ApplicationStart:
+    - location: scripts/application_start.sh
+      timeout: 300
+      runas: ubuntu
+  ApplicationStop:
+    - location: scripts/application_stop.sh
+      timeout: 300
+      runas: ubuntu

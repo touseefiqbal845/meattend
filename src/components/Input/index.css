@@ -1,0 +1,42 @@
+.customAutocompleteTag {
+    margin: -12px;
+    max-width: calc(100% - 6px);
+    height: 25px;
+    margin-left: 10px;
+  }
+  .MuiButtonBase-root-MuiChip-root {
+    height: 25px;
+
+  }
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: right;
+    margin-top: 10px;
+  }
+  .grid-item {
+    flex: 1 0 9%;
+    padding: 0 10px;
+    margin: 1px -5px;
+  }
+  .photo-heading{
+    margin-top:60px;
+    margin-bottom:-15px;
+  margin-left:6px;
+
+}
+.max-text {
+  color: rgba(0, 0, 0, 0.5);
+  margin-left:4px;
+}
+  @media screen and (max-width: 768px) {
+    .grid-item {
+      flex-basis: 50%; 
+    }
+  }
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .grid-item {
+      flex-basis: 100%; 
+    }
+  }

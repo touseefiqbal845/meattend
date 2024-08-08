@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7707f0f.css",
+    "main.js": "/static/js/main.4f4b1321.js",
+    "static/js/592.a73006fd.chunk.js": "/static/js/592.a73006fd.chunk.js",
+    "static/media/marketing.png": "/static/media/marketing.f2029cba83253a4b0c1c.png",
+    "static/media/b2.png": "/static/media/b2.cbf0503f040c8dfb8926.png",
+    "static/media/b4.png": "/static/media/b4.b77a9e7c549f0adca11e.png",
+    "static/media/b1.png": "/static/media/b1.e0576f8f26a00f94b967.png",
+    "static/media/b3.png": "/static/media/b3.7fbfb729e0887a147cf9.png",
+    "static/media/chart.png": "/static/media/chart.d9a376ae1e2c57c71d1d.png",
+    "static/media/mobile-market.png": "/static/media/mobile-market.8086d8a51c6a88375f74.png",
+    "static/media/video.png": "/static/media/video.8b7a43bbb7e31d8962e0.png",
+    "static/media/mobile.png": "/static/media/mobile.57b4c9625bca9ae90f79.png",
+    "static/media/thumb.png": "/static/media/thumb.2481375162c9e6a50f2e.png",
+    "static/media/heart.png": "/static/media/heart.657bd5051a5694778583.png",
+    "static/media/demo.png": "/static/media/demo.4941600df9410b21e273.png",
+    "static/media/companies.png": "/static/media/companies.483c8d76d2b017143a0c.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.d7707f0f.css.map": "/static/css/main.d7707f0f.css.map",
+    "main.4f4b1321.js.map": "/static/js/main.4f4b1321.js.map",
+    "592.a73006fd.chunk.js.map": "/static/js/592.a73006fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7707f0f.css",
+    "static/js/main.4f4b1321.js"
+  ]
+}
